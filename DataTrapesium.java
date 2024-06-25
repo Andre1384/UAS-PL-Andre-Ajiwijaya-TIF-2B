@@ -11,13 +11,4 @@ public class DataTrapesium {
         double keliling = Alas + AlasBawah + 2 * sisi1;
         return keliling;
     }
-
-    @Override
-    public String toString() {
-        return "DataTrapesium{" +
-                "Alas = " + Alas +
-                ", AlasBawah = " + AlasBawah +
-                ", Tinggi = " + Tinggi +
-                '}';
-    }
 }
